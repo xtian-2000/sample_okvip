@@ -72,7 +72,9 @@
         "test": {
           "builder": "@angular/build:karma",
           "options": {
-            "tsConfig": "tsconfig.spec.json",
+ "outputPath": "dist/my-landing-page",
+  "browser": "src/main.ts",           
+ "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
                 "glob": "**/*",
